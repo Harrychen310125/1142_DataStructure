@@ -147,7 +147,7 @@ void initializePlayer(Player* player, string name, Queue& cardDeck) {
 void playerTurn(Player* player, Queue& cardDeck) { 
     char choice;
     while (player->score < 21 && !cardDeck.isEmpty()) {
-        cout << player->name << " 現在分數: " << player->score << " 要抽嗎？(h/s): ";
+        cout << player->name << " 現在分數: " << player->score << " 要抽嗎？(h= 抽 , s = 不抽) ";
         cin >> choice;
 
         if (choice == 'h') {
