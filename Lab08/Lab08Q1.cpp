@@ -49,7 +49,7 @@ public:
         return root;//回傳root
     }
 
-    //中序：左 中 右
+    //中序:左中右
     void inorderTraversal(TreeNode* node) {
         if (!node) return;//空就結束
 
@@ -72,8 +72,7 @@ int main() {
     BinaryTree tree;//建立tree
 
     vector<int> arr = {1, 2, 3, 4, 5, 6, 7};//資料
-    tree.buildTree(arr);//建樹
-
+    tree.buildTree(arr);//將arr丟入buildtree
     cout << "Inorder Traversal:   ";//提示Inorder
     tree.inorderTraversal(tree.root);//中序
     cout << endl;//換行
