@@ -2,7 +2,7 @@
 #include <queue>//queue用來做層序
 #include <vector>//vector存資料
 
-using namespace std;//方便用std
+using namespace std;
 
 //節點
 class TreeNode {
