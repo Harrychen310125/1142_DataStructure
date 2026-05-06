@@ -55,7 +55,7 @@ private:
         inOrderTraversal(node->right);  //再走右邊
     }
 
-    // --- 刪除節點 ---
+    //刪除節點
     TreeNode* deleteNode(TreeNode* node, int val) {
         if (node == nullptr) return node; //找不到就直接回傳
 
