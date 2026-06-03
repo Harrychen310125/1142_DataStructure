@@ -90,7 +90,7 @@ public:
     }
 
     //BFS）
-    // 依照層數逐層拜訪
+    //依照層數逐層拜訪
     void Breadth_first_search(TreeNode* root) {
 
         if (root == nullptr) return;
